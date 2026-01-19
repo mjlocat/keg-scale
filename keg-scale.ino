@@ -18,7 +18,7 @@ ScaleMqtt *mqtt = new ScaleMqtt(config);
 ScaleWebServer *server = new ScaleWebServer(config);
 bool runLoop = false;
 unsigned long previousMillis = 0;
-const unsigned long interval = 5000; // get weight every 5 seconds
+const unsigned long interval = 500; // get weight every 0.5 seconds
 
 void setup() {
   /* Set up serial port for debugging */
